@@ -1,0 +1,43 @@
+/* 
+.jumbotron {
+	background-image:
+		url("file:///C:/Users/SAYALI/Downloads/Incident_Management_System-main/Incident_Management_System-main/Incident_Management_System_1/WebContent/img/csm_hochschule-fuer-technik-stuttgart.jpg");
+	background-size: cover;
+	height: 100%;
+	
+} */
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #cc3125;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+  color: #cc3125;
+  height: 100%;
+}

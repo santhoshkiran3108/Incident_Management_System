@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Add New Ticket</title>
-<link href="Bootstrap/css/bootstrap.css" rel="stylesheet"
-	type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="form-popup">
@@ -18,19 +19,19 @@
 				<div class="col-md-6 col-xs-12">
 					<div class="jumbotron">
 
-						<h1 class="text-center">Add Ticket Page</h1>
+						<h3 class="text-center">Add Ticket</h3>
 						<br>
 
 						<div class="form-group">
 							<label class="control-label" for="ticketName"> Ticket
 								Name</label> <input type="text" name="ticketName" class="form-control"
-								placeholder="TicketName" required="required">
+								 required="required">
 						</div>
 						<div class="form-group">
 							<label class="control-label" for="ticketDescription">
-								Ticket Description</label> <input type="text" name="ticketDescription"
-								class="form-control" placeholder="TicketDescription"
-								required="required">
+								Ticket Description</label> <textarea name="ticketDescription"
+								class="form-control" 
+								required="required"></textarea>
 						</div>
 						<div class="form-group">
 							<label for="ticketPriority">Ticket Priority</label> <select
@@ -48,7 +49,7 @@
 						<div class="form-group">
 							<label class="control-label" for="username"> User Name</label> <input
 								type="text" name="UserName" class="form-control"
-								placeholder="Username" required="required">
+								 required="required">
 						</div>
 						<div class="form-group">
 							<label for="ticketType">Ticket Type</label> <select
@@ -59,16 +60,13 @@
 								<option value="JIRA">JIRA</option>
 							</select>
 
-							<div>
-								<button type="submit" class="btn btn-outline-warning">Submit</button>
+							<div class ="col text-center">
+								<button type="submit">Submit</button>
 								<br>
 							</div>
 
 						</div>
 					</div>
-					<div class="col-md-3"></div>
-
-				</div>
 			</div>
 
 		</form>
