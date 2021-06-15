@@ -50,15 +50,15 @@ public class addTicket extends HttpServlet {
 			ps.setString(5, UserName);
 			ps.setTimestamp(6, timestamp);
 			ps.setString(7, ticketType);
-			ps.setString(8," ");
+			ps.setString(8, " ");
 			ps.executeUpdate();
 
 			PrintWriter out = resp.getWriter();
-		//	out.println("<html><body><a href="+"Home.jsp"+">Back</a></body></html>");
+			// out.println("<html><body><a href="+"Home.jsp"+">Back</a></body></html>");
 			out.println("You Have Successfully Registered !");
-			
-		//	RequestDispatcher rd = req.getRequestDispatcher("Home.jsp");
-		//	rd.forward(req, resp);
+
+			// RequestDispatcher rd = req.getRequestDispatcher("Home.jsp");
+			// rd.forward(req, resp);
 
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
